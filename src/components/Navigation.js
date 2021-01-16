@@ -4,13 +4,13 @@ import logo from "../images/logo.png";
 
 const Navigation = () => {
   return (
-    <nav className="navbar navbar-expand navbar-dark bg-dark">
-      {/* <a href="/" className="navbar-brand">
-        MyTodo
-      </a> */}
-      <Link to={"/"} className="nav-link">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a href="/" className="navbar-brand">
         <img src={logo} alt="Vitech Entreprise" />
-      </Link>
+      </a>
+      {/* <Link to={"/"} className="nav-link">
+        <img src={logo} alt="Vitech Entreprise" />
+      </Link> */}
       <div className="navbar-nav mr-auto">
         <li className="nav-item">
           <Link to={"/"} className="nav-link">
