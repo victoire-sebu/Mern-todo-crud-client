@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../images/logo.png";
 
 const Navigation = () => {
   return (
@@ -8,7 +9,7 @@ const Navigation = () => {
         MyTodo
       </a> */}
       <Link to={"/"} className="nav-link">
-        MyTodo
+        <img src={logo} alt="Vitech Entreprise" />
       </Link>
       <div className="navbar-nav mr-auto">
         <li className="nav-item">

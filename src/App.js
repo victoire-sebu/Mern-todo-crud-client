@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 import CreateTodo from "./components/creat-todo.component";
 import EditTodo from "./components/edit-todo.component";
@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Navigation/>
+          <Navigation />
           <h2 className="text-primary">sebu</h2>
 
           <Route path="/" exact component={TodosList} />
